@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Saga Freeza - DBZ</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-image: url('https://i.imgur.com/vYQZJQa.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .container {
+            background-color: rgba(255, 255, 255, 0.92);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 100, 255, 0.4);
+        }
+        
+        h1 {
+            color: #4169E1;
+            text-align: center;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 139, 0.3);
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #FF4500;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #1E90FF;
+            border-bottom: 2px solid #FF8C00;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        
+        .character-card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+            box-shadow: 0 4px 8px rgba(65, 105, 225, 0.2);
+            display: flex;
+            align-items: center;
+            transition: transform 0.3s;
+        }
+        
+        .character-card:hover {
+            transform: scale(1.02);
+        }
+        
+        .character-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+            border: 3px solid #4169E1;
+        }
+        
+        .power-level {
+            font-weight: bold;
+            color: #FF4500;
+        }
+        
+        .transformation {
+            background-color: #E6E6FA;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-weight: bold;
+            color: #4B0082;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 50px;
+            margin: 30px 0;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: linear-gradient(to bottom, #1E90FF, #FF4500);
+        }
+        
+        .timeline-event {
+            position: relative;
+            margin-bottom: 30px;
+        }
+        
+        .timeline-event::before {
+            content: '';
+            position: absolute;
+            left: -43px;
+            top: 5px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #4169E1;
+            border: 3px solid #FF8C00;
+        }
+        
+        .battle-highlight {
+            background-color: #FFFACD;
+            padding: 10px;
+            border-left: 4px solid #FF4500;
+            margin: 15px 0;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-style: italic;
+            color: #666;
+            padding-top: 20px;
+            border-top: 1px dashed #4169E1;
+        }
+        
+        .scouter {
+            background-color: #32CD32;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-family: monospace;
+            display: inline-block;
+            margin-top: 5px;
+        }
+        
+        .planet-name {
+            font-weight: bold;
+            color: #008080;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💥 A Lendária Saga Freeza 💥</h1>
+        <p class="subtitle">"Eu sou o terror do universo! O ser mais poderoso que existe!" - Freeza</p>
+        
+        <p>A <span class="transformation">Saga Freeza</span> é o arco mais icônico de Dragon Ball Z, onde Goku enfrenta o tirano espacial Freeza no planeta <span class="planet-name">Namekusei</span>, culminando na lendária transformação em <span class="transformation">Super Saiyajin</span>!</p>
+        
+        <h2>🌌 A História</h2>
+        <div class="timeline">
+            <div class="timeline-event">
+                <h3>A Jornada para Namek</h3>
+                <p>Após a batalha com os Saiyajins, os guerreiros Z descobrem que as Esferas do Dragão originais existem no planeta <span class="planet-name">Namekusei</span>. Eles viajam para lá na esperança de reviver seus amigos mortos.</p>
+            </div>
+            
+            <div class="timeline-event">
+                <h3>O Terror de Freeza</h3>
+                <p>Freeza, o imperador do universo, chega a Namek em busca das Esferas para desejar a imortalidade. Seu exército inclui poderosos guerreiros como <strong>Dodoria, Zarbon e a Força Ginyu</strong>.</p>
+            </div>
+            
+            <div class="timeline-event">
+                <h3>As Transformações de Freeza</h3>
+                <p>Freeza possui <span class="transformation">4 formas</span>, cada uma mais poderosa que a anterior. Na sua forma final, seu poder chega a <span class="power-level">1.000.000</span>!</p>
+            </div>
+            
+            <div class="timeline-event">
+                <h3>A Chegada de Goku</h3>
+                <p>Depois de treinar com <strong>100x a gravidade</strong> em sua nave, Goku finalmente chega a Namek com um poder de luta de <span class="power-level">90.000</span> (sem Kaioh-ken).</p>
+            </div>
+            
+            <div class="timeline-event">
+                <h3>O Nascimento de uma Lenda</h3>
+                <p>Após Freeza matar <strong>Kuririn</strong>, Goku explode de raiva e se transforma no lendário <span class="transformation">Super Saiyajin</span>, com poder de <span class="power-level">150.000.000</span>!</p>
+            </div>
+        </div>
+        
+        <div class="battle-highlight">
+            <h3>⚡ Batalha Épica: Goku vs Freeza ⚡</h3>
+            <p>O confronto mais longo da história de DBZ (quase 20 episódios!) onde:</p>
+            <ul>
+                <li>Freeza destrói o núcleo de Namek, condenando o planeta</li>
+                <li>Goku domina o <span class="transformation">Super Saiyajin</span></li>
+                <li>O famoso golpe <strong>Genki Dama</strong> é usado</li>
+                <li>Freeza é cortado ao meio por seu próprio ataque</li>
+            </ul>
+        </div>
+        
+        <h2>👽 Personagens Principais</h2>
+        
+        <div class="character-card">
+            <img src="https://i.imgur.com/JrQvY9H.png" alt="Goku SSJ" class="character-img">
+            <div>
+                <h3>Goku (Super Saiyajin)</h3>
+                <p>O primeiro Super Saiyajin em 1000 anos. Seu poder salta para <span class="power-level">150.000.000</span> quando transformado.</p>
+                <div class="scouter">Scouter: "IMPOSSÍVEL! O poder continua aumentando!"</div>
+            </div>
+        </div>
+        
+        <div class="character-card">
+            <img src="https://i.imgur.com/vYQZJQa.png" alt="Freeza" class="character-img">
+            <div>
+                <h3>Freeza (Forma Final)</h3>
+                <p>O tirano cósmico com poder de <span class="power-level">120.000.000</span> em 100% de seu poder. Responsável pela destruição do planeta Vegeta.</p>
+            </div>
+        </div>
+        
+        <div class="character-card">
+            <img src="https://i.imgur.com/5XJQY9Y.png" alt="Vegeta" class="character-img">
+            <div>
+                <h3>Vegeta</h3>
+                <p>O príncipe Saiyajin que evolui muito nesta saga, chegando a <span class="power-level">500.000</span>. Morre heroicamente contra Freeza.</p>
+            </div>
+        </div>
+        
+        <div class="character-card">
+            <img src="https://i.imgur.com/9YQ6X3z.png" alt="Piccolo" class="character-img">
+            <div>
+                <h3>Piccolo (Fusão com Nail)</h3>
+                <p>Após se fundir com Nail, seu poder salta para <span class="power-level">1.000.000+</span>, tornando-o temporariamente o mais forte da equipe.</p>
+            </div>
+        </div>
+        
+        <h2>🌟 Curiosidades</h2>
+        <ul>
+            <li>Esta saga introduz o conceito de <span class="transformation">Super Saiyajin</span></li>
+            <li>Freeza é responsável pelo <strong>genocídio dos Saiyajins</strong></li>
+            <li>A batalha final dura <strong>4 horas e meio</strong> no tempo do planeta Namek</li>
+            <li>Primeira aparição da técnica <strong>Teletransporte</strong></li>
+            <li>Goku passa <strong>6 dias</strong> viajando para Namek na nave</li>
+        </ul>
+        
+        <h2>🔢 Níveis de Poder</h2>
+        <table style="width:100%; border-collapse: collapse; margin: 20px 0;">
+            <tr style="background-color: #4169E1; color: white;">
+                <th style="padding: 10px; text-align: left;">Personagem</th>
+                <th style="padding: 10px; text-align: right;">Poder Máximo</th>
+            </tr>
+            <tr style="border-bottom: 1px solid #ddd;">
+                <td style="padding: 8px;">Goku (Base)</td>
+                <td style="padding: 8px; text-align: right;">3.000.000</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #ddd;">
+                <td style="padding: 8px;">Goku (Super Saiyajin)</td>
+                <td style="padding: 8px; text-align: right;">150.000.000</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #ddd;">
+                <td style="padding: 8px;">Freeza (100%)</td>
+                <td style="padding: 8px; text-align: right;">120.000.000</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #ddd;">
+                <td style="padding: 8px;">Piccolo (Fusão)</td>
+                <td style="padding: 8px; text-align: right;">1.000.000</td>
+            </tr>
+            <tr>
+                <td style="padding: 8px;">Vegeta (Final)</td>
+                <td style="padding: 8px; text-align: right;">500.000</td>
+            </tr>
+        </table>
+        
+        <footer>
+            "Você pode até ter se tornado um Super Saiyajin, mas eu sou o imperador do universo!" - Freeza<br>
+            Dragon Ball Z - Saga Freeza (1990-1991)
+        </footer>
+    </div>
+</body>
+</html>
