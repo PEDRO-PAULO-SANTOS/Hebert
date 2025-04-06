@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Saga Saiyajin - DBZ</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-image: url('https://i.imgur.com/JTQYQYt.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            color: #FF5722;
+            text-align: center;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        h2 {
+            color: #E91E63;
+            border-bottom: 2px solid #FFC107;
+            padding-bottom: 5px;
+        }
+        
+        .character-card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        
+        .character-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 20px;
+            border: 3px solid #FF5722;
+        }
+        
+        .power-level {
+            font-weight: bold;
+            color: #FF5722;
+        }
+        
+        .highlight {
+            background-color: #FFF9C4;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 50px;
+            margin: 30px 0;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: #FF5722;
+        }
+        
+        .timeline-event {
+            position: relative;
+            margin-bottom: 30px;
+        }
+        
+        .timeline-event::before {
+            content: '';
+            position: absolute;
+            left: -43px;
+            top: 5px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #E91E63;
+            border: 3px solid #FF5722;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-style: italic;
+            color: #666;
+        }
+        
+        .scouter {
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-family: monospace;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 A Épica Saga Saiyajin 🐉</h1>
+        
+        <p>A <span class="highlight">Saga Saiyajin</span> é o primeiro grande arco de Dragon Ball Z, onde descobrimos que Goku não é um simples terráqueo, mas sim um <strong>guerreiro Saiyajin</strong> enviado para conquistar a Terra!</p>
+        
+        <h2>📜 A História</h2>
+        <div class="timeline">
+            <div class="timeline-event">
+                <h3>O Segredo de Goku</h3>
+                <p>Raditz chega à Terra revelando que Goku é seu irmão e que seu nome original é <strong>Kakarotto</strong>. Ele foi enviado para destruir a Terra, mas perdeu a memória ao cair de um penhasco quando criança.</p>
+            </div>
+            
+            <div class="timeline-event">
+                <h3>A Morte de Goku</h3>
+                <p>Para derrotar Raditz, Goku se sacrifica segurando seu irmão enquanto Piccolo lança o <strong>Makankosappo</strong>. Antes de morrer, Raditz avisa que dois Saiyajins ainda mais poderosos virão em um ano.</p>
+            </div>
+            
+            <div class="timeline-event">
+                <h3>Treinamento no Outro Mundo</h3>
+                <p>Goku treina com <strong>Senhor Kaioh</strong> no caminho da serpente, enquanto os amigos se preparam na Terra para a chegada de <strong>Vegeta e Nappa</strong>.</p>
+            </div>
+            
+            <div class="timeline-event">
+                <h3>A Batalha Chega à Terra</h3>
+                <p>Nappa causa destruição, matando vários guerreiros Z. Quando Goku finalmente chega, mostra seu novo poder após o treinamento, mas Vegeta é um oponente muito mais forte.</p>
+            </div>
+            
+            <div class="timeline-event">
+                <h3>O Confronto Final</h3>
+                <p>Goku, Gohan, Kuririn e Yajirobe enfrentam Vegeta em uma batalha épica que termina com Vegeta gravemente ferido fugindo da Terra.</p>
+            </div>
+        </div>
+        
+        <h2>👊 Personagens Principais</h2>
+        
+        <div class="character-card">
+            <img src="https://i.imgur.com/3QZJY7L.png" alt="Goku" class="character-img">
+            <div>
+                <h3>Goku (Kakarotto)</h3>
+                <p>O herói que descobre ser um Saiyajin. Seu poder salta de <span class="power-level">416</span> para <span class="power-level">8.000+</span> com o Kaioh-ken!</p>
+                <div class="scouter">Scouter: "É... É... É OVER 9000!!!"</div>
+            </div>
+        </div>
+        
+        <div class="character-card">
+            <img src="https://i.imgur.com/9YQ6X3z.png" alt="Vegeta" class="character-img">
+            <div>
+                <h3>Vegeta</h3>
+                <p>O príncipe dos Saiyajins com poder de <span class="power-level">18.000</span>. Arrogante e poderoso, ele é derrotado mas jura vingança.</p>
+            </div>
+        </div>
+        
+        <div class="character-card">
+            <img src="https://i.imgur.com/5XJQY9Y.png" alt="Gohan" class="character-img">
+            <div>
+                <h3>Gohan</h3>
+                <p>Filho de Goku que mostra potencial incrível quando enfurecido, chegando a <span class="power-level">2.800</span> contra Raditz.</p>
+            </div>
+        </div>
+        
+        <h2>💥 Curiosidades</h2>
+        <ul>
+            <li>Esta saga introduz os <strong>ki blasts</strong> e batalhas aéreas em grande escala</li>
+            <li>Primeira aparição da <strong>Esfera do Dragão de 4 estrelas</strong> como símbolo emocional</li>
+            <li>Vegeta inicialmente considerava Goku um "Saiyajin de classe baixa"</li>
+            <li>A famosa frase "It's over 9000!" vem da versão inglesa desta saga</li>
+        </ul>
+        
+        <footer>
+            "O poder do Super Saiyajin é lendário!" - Vegeta<br>
+            Dragon Ball Z - Saga Saiyajin (1989)
+        </footer>
+    </div>
+</body>
+</html>
